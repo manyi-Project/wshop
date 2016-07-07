@@ -30,15 +30,15 @@
 		<!--</div>-->
 		<div class="leftsidebar-outer clearself">
 			<ul class="leftsidebar-nav fl">
-				<a href="javascript:;"><li class="leftsidebar-active">视频</li></a>
-				<a href="javascript:;"><li>电子书</li></a>
-				<a href="javascript:;"><li>学生用品</li></a>
-				<a href="javascript:;"><li>玩具</li></a>
-				<a href="javascript:;"><li>益智</li></a>
-				<a href="javascript:;"><li>运动</li></a>
-				<a href="javascript:;"><li>保健</li></a>
-				<a href="javascript:;"><li>DIY</li></a>
-				<a href="javascript:;"><li>团购</li></a>
+				<li class="leftsidebar-active">视频</li>
+				<li>电子书</li>
+				<li>学生用品</li>
+				<li>玩具</li>
+				<li>益智</li>
+				<li>运动</li>
+				<li>保健</li>
+				<li>DIY</li>
+				<li>团购</li>
 			</ul>
 			<ul class="sidebar-content clearself">
 				<li class="fl">
@@ -127,6 +127,7 @@
 	$(function () {
 		$(".leftsidebar-nav li").on("click",function () {
 			$(this).addClass("leftsidebar-active").siblings().removeClass("leftsidebar-active");
+		})
 		})
 		$(".wrong").on("click",function () {
 			$(".msg").remove();
