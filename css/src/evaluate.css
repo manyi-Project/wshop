@@ -1,0 +1,186 @@
+.evaluate .main{
+    width: 720px;
+    margin: 0 auto;
+    -webkit-box-flex: 1;
+    -o-box-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+    overflow: auto;
+    position: relative;
+}
+.evaluate .textare{
+    padding: 20px 20px 0 20px;
+    background-color: #FFFFFF;
+    border-bottom: 1px solid #e3e3e3;/*no*/
+}
+.evaluate .textare_img{
+    width: 120px;
+    height: 120px;
+    float: left;
+}
+.evaluate .textare_img img{
+    width: 100%;
+    height: 100%;
+}
+.evaluate .textareaBox{
+    color: #999;
+    font-size: 20px;
+    float: left;
+    margin-left: 20px;
+    /*border: none;*/
+}
+.evaluate .sendPhotos_box{
+    margin-top: 290px;
+    margin-bottom: 32px;
+}
+.evaluate .sendPhotos{
+    width: 100px;
+    height: 100px;
+    border: 2px solid #e3e3e3;
+    background: url("../images/evaluate/iconfont-xiangji.png") center center no-repeat;
+    float: left;
+}
+.evaluate .img_box{
+    width: 100px;
+    height: 100px;
+    float: left;
+    margin-left: 20px;
+    border: 1px solid #000000;/*no*/
+}
+.evaluate .Star_font{
+    font-size: 20px;
+    color: #666;
+    line-height: 100%;
+    margin-right: 120px;
+}
+.evaluate .Comment{
+    width: 720px;
+    height: 96px;
+    margin: 0 auto;
+    background-color: #fff;
+    border-top: 1px solid #e3e3e3;/*no*/
+}
+.evaluate .Comment_left{
+    width: 520px;
+    float: left;
+    height: 96px;
+}
+.evaluate .Comment_right{
+    width: 200px;
+    float: left;
+    height: 96px;
+    background-color: #f4471f;
+    font-size: 28px;
+    color: #fff;
+    line-height: 96px;
+    text-align: center;
+}
+.evaluate .Comment a{
+    display: block;
+    overflow: hidden;
+}
+.evaluate .duihao{
+    width: 37px;
+    height: 37px;
+    margin-left: 20px;
+    background:url("../images/evaluate/checked_false.png") 0 0 no-repeat;
+    background-size: contain;
+    border-radius: 50%;
+    position: relative;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+.evaluate .checked{
+    background:url("../images/evaluate/checked_true.png") 0 0 no-repeat;
+    background-size: contain;
+}
+.evaluate .duihao input{
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+}
+.evaluate .Comment_left_font{
+    font-size: 28px;
+    color: #333;
+    position: relative;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+    transform: translateY(-50%);
+    margin-left: 30px;
+}
+/**************µ¯³ö²ã**************/
+.evaluate .marginAuto{
+    position: absolute;
+    margin: auto;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+}
+.evaluate .alert_show{
+    width: 720px;
+    height: 100%;
+    background: url("../images/productDetails/opacity_alert.png") 0 0 repeat;
+    z-index: 20;
+    display: none;
+}
+.evaluate .alert_inner{
+    width: 322px;
+    height: 154px;
+    background-color: #fff;
+    border-radius: 5px;
+}
+.evaluate .alert_img{
+    width: 42px;
+    height: 29px;
+    background: url("../images/evaluate/pingluncg.png") 0 0 no-repeat;
+    background-size: contain;
+    margin: 30px auto 0;
+}
+.evaluate .alert_font{
+    font-size: 30px;
+    color: #999;
+    text-align: center;
+    line-height: 100%;
+    margin-top: 25px;
+}
+.evaluate .a{}
+
+
+
+
+div#AddDP{
+    width: 720px;
+    margin: 0 auto;
+}
+div#AddDP ul.Star li{
+    padding: 21px 20px;
+    background-color: #fff;
+}
+div#AddDP ul.Star li:first-child{
+    margin-bottom: 18px;
+}
+div#AddDP ul.Star li span.Select{
+    padding:5px;
+    display:block;
+}
+div#AddDP ul.Star li span.Select a{
+    display: inline-block;
+    width: 34px;
+    height: 32px;
+    margin-right: 34px;
+}
+div#AddDP ul.Star li span.Select a img{
+    width: 100%;
+    height: 100%;
+}
+div#AddDP ul.Star li span.Select img{
+    vertical-align:middle;
+}

@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="../css/main.min.css"/>
+    <script src="../js/jquery-1.11.3.min.js"></script>
+    <script src="../js/flexible.debug.js"></script>
+    <title>充值</title>
+</head>
+<body>
+    <div class="comment_title">
+        <a href="javascript:;" class="comment_return">返回</a>
+        充值
+    </div>
+    <div class="recharge">
+        <div class="main">
+            <div class="bankCard clearfix">
+                <div class="cardImg fl"><img src="" alt="银行卡logo"/></div>
+                <div class="card_name fl">
+                    <span class="card_block card_firstName">中国邮政储蓄银行</span>
+                    <span class="card_block card_lastName">尾号 7891</span>
+                </div>
+                <icon class="arrow verCenter"></icon>
+            </div>
+            <div class="prompt">该卡本次最多可充5，000.00元</div>
+            <div class="money">
+                <span class="jine verCenter">金额</span>
+                <input class="textare verCenter" pattern="[0-9]" type="text"/>
+            </div>
+            <a class="sure">确定</a>
+        </div>
+        <div class="alert_show marginAuto">
+            <div class="alert_inner marginAuto">
+                <div class="alert_password">输入密码</div>
+                <form action="" class="password" id="password">
+                    <input type="password" class="first" autofocus="autofocus" max="1" pattern="[0-9]" min="1" maxlength="1"/>
+                    <input type="password" disabled max="1" min="1" maxlength="1"/>
+                    <input type="password" disabled max="1" min="1" maxlength="1"/>
+                    <input type="password" disabled max="1" min="1" maxlength="1"/>
+                    <input type="password" disabled max="1" min="1" maxlength="1"/>
+                    <input type="password" class="last" disabled max="1" min="1" maxlength="1"/>
+                </form>
+                <p class="alert_font">确认</p>
+            </div>
+        </div>
+    </div>
+</body>
+<script>
+    $(".textare").bind('input propertychange',function(){
+        var $this_val = $(this).val();
+        if (!isNaN($this_val)&&(5000 >= $this_val)&&($this_val >0)){
+            $(".sure").addClass("ok");
+            $(".sure").on("touchend",function(){
+                $(".alert_show").fadeIn("slow");
+                password();
+            });
+        }else{
+            $(".sure").removeClass("ok");
+            $(".sure").off("touchend");
+        }
+    });
+    $(".alert_font").on("touchend",function(){
+        $(".alert_show").fadeOut("slow");
+    });
+    function password(){
+        var password = document.getElementById("password");
+        password.onkeydown=function(event){
+            var e = event || window.event || arguments.callee.caller.arguments[0];
+            if(e && e.keyCode==8){
+                var inpu = document.activeElement;
+                backspace(inpu)
+            }
+            if(e && e.keyCode != 8){
+                var inputs = document.activeElement;
+                keyup(inputs);
+            }
+        };
+        function backspace(inputs){
+            if ($(inputs).hasClass("first")){return false}
+            inputs.onkeyup = function(){
+                if (inputs.value.length === 0){
+                    inputs.setAttribute("disabled",true);
+                    $(inputs).prev().attr("disabled",false).focus();
+                }
+            }
+        }
+        function keyup(inputs){
+            if ($(inputs).hasClass("last")){return false}
+            inputs.onkeyup = function(){
+                if (inputs.value.length === 1){
+                    inputs.setAttribute("disabled",true);
+                    $(inputs).next().attr("disabled",false).focus();
+                }
+            }
+        }
+    }
+</script>
+</html>

@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+</head>
+<body>
+<div id="box">
+
+</div>
+</body>
+<script type="text/javascript" src="../js/jquery-1.11.3.min.js" ></script>
+<script>
+    $.ajax({
+        type:"get",
+        url:"http://test.qiaobooks.com/tlist.php",
+        async:true,
+        dataType:"json",
+        success:function(data){
+            var object1 = eval(data);
+            var oimg=object1[0].img.replace('http://',"");
+            console.log(data);
+            $("#box").html('<img src='+oimg+'>');
+        }
+    });
+</script>
+</html>

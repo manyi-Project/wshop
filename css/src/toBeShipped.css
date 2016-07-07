@@ -1,0 +1,17 @@
+.toBeShipped .a{}
+.toBeShipped .logistics_shipped{
+    padding: 0 17px;
+    height: 40px;
+    border-radius: 5px;
+    line-height: 40px;
+    color: #FF8400;
+    font-size: 20px;
+    text-align: center;
+    border: 1px solid #E3E3E3;/*no*/
+    -webkit-transform: translateY(25%);
+    -moz-transform: translateY(25%);
+    -ms-transform: translateY(25%);
+    -o-transform: translateY(25%);
+    transform: translateY(25%);
+}
+.toBeShipped .a{}

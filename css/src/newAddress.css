@@ -1,0 +1,258 @@
+.n_information{
+	background: #fff;
+}
+.n_information .n_place{
+	display: block;
+	width:100%;
+	height:80px;
+	border:none;
+	border-bottom:1px solid #E3E3E3;/*no*/
+	font-size:22px;
+	color:#666;
+	line-height: 80px;
+	padding-left:20px;
+	background-color:#fff;
+}
+.n_information .n_place::-webkit-input-placeholder{
+	font-size:22px;
+	color:#C9C9C9;
+}
+.n_information .n_place:-moz-placeholder{
+	font-size:22px;
+	color:#C9C9C9;
+}
+.n_information .n_place::-moz-placeholder{
+	font-size:22px;
+	color:#C9C9C9;
+}
+.n_information .n_place:-ms-input-placeholder{
+	font-size:22px;
+	color:#C9C9C9;
+}
+
+.n_information .n_street::-webkit-input-placeholder{
+	color:#666;
+}
+.n_information .n_street:-moz-placeholder{
+	color:#666;
+}
+.n_information .n_street::-moz-placeholder{
+	color:#666;
+}
+.n_information .n_street:-ms-input-placeholder{
+	color:#666;
+}
+.n_information .n_province{
+	width: 100%;
+	height: 80px;
+	line-height: 80px;
+
+	border-bottom: 1px solid #e3e3e3;/*no*/
+	background:url(../images/arrow.png) no-repeat 687px center;
+	background-size:13px 22px;
+}
+
+.n_information .n_province select {
+	color:#666;
+	background-color: #FFFFFF;
+	padding: 0 20px;
+	appearance:none;
+	-moz-appearance:none; /* Firefox */
+	-webkit-appearance:none;
+}
+.n_information .n_province option {
+	color:#666;
+}
+.n_information .n_street{
+	color:#666;
+	background:url(../images/arrow.png) no-repeat 687px center;
+	background-size:13px 22px;
+}
+.n_information .province{
+	display: block;
+	padding: 20px 0 20px 20px;
+	border-bottom: 1px solid #E3E3E3;/*no*/
+	font-size: 22px;
+	color: #666;
+}
+.n_information .province input{
+	margin-left: 40px;
+}
+.a_detail{
+	display: block;
+	width:100%;
+	height:200px;
+	border:none;
+	font-size:22px;
+	color:#c9c9c9;
+	padding:20px;
+	resize: none;
+	outline: 0;
+}
+.n_container{
+	width:100%;
+	margin:164px 0;
+	height:210px;
+	overflow: auto;
+}
+.n_table{
+	position:relative;
+	z-index:10;
+}
+.n_table,.n_table tr{
+	width:100%;
+	
+}
+.n_table tr td{
+	width:33.33%;
+	text-align: center;
+	height:40px;
+	line-height: 40px;
+}
+.n_table .n_tr1 td{
+	font-size:22px;
+	color:#C9C9C9;
+}
+.n_table .n_tr2 td{
+	font-size:26px;
+	color:#999;
+}
+.n_table .n_tr3 td{
+	font-size:28px;
+	color:#333;
+	
+}
+.area_grid{
+	/*position:fixed;*/
+	position:relative;
+	z-index:2;
+	height:42px;
+	line-height:42px;
+	border-top:1px solid #E3E3E3;/*no*/
+	border-bottom:1px solid #E3E3E3;/*no*/
+	z-index: 3;
+	font-size:28px;
+	color:#333;
+}
+.n_saveAddress{
+	width:100%;
+	padding: 20px;
+}
+.n_save{
+	display: block;
+	width:100%;
+	height:80px;
+	background: #FF8400;
+	color:#fff;
+	font-size:24px;
+	text-align: center;
+	line-height: 80px;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+}
+/*
+ */
+
+.android-ics .dwhl {
+     padding:0px; 
+}
+.android-ics .dwwl {
+    margin: 0px;
+}
+.android-ics .dwc {
+     padding:0px; 
+}
+.android-ics .dwhl {
+     padding:0px; 
+}
+.android-ics .dwc {
+     padding: 0px; 
+}
+.dwhl {
+     padding-top: 0px; 
+}
+.dwc {
+     padding-top:0px; 
+}
+.dwhl {
+     padding-top: 0px; 
+}
+.dwc {
+     padding-top: 0px; 
+     width:33.33%;
+}
+.dwc table{
+	width:100%;
+}
+.dwwc {
+    padding: 0px;
+}
+.dww{
+	margin:0;
+}
+.android-ics .dw .dwwol{
+	width:100%;
+	left:0;
+	border-top:1px solid #E3E3E3;/*no*/
+	border-bottom: 1px solid #E3E3E3;/*no*/
+	height:42px;
+	line-height: 42px;
+}
+
+.android-ics.light .dww .dw-li{
+    color: #333;
+   	font-size:28px;
+}
+.android-ics.light .dwbc {
+    border:none;
+}
+.addModal{
+	position: absolute;
+	left: 0;
+	top: 0;
+	bottom: 0;
+	right: 0;
+	background-color: rgba(0,0,0,.5);
+	display: none;
+}
+.modalInner{
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	border-radius: 10px;
+	width: 80%;
+	background-color: #fff;
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	-webkit-transform: translate(-50%, -50%);
+	-moz-transform: translate(-50%, -50%);
+	-ms-transform: translate(-50%, -50%);
+	-o-transform: translate(-50%, -50%);
+	transform: translate(-50%, -50%);
+}
+.addTitle{
+	height: 100px;
+	line-height: 100px;
+	border-bottom: 1px solid #E3E3E3;/*no*/
+	padding-left: 20px;
+	font-size: 24px;
+	font-weight: bold;
+}
+.addList{
+	height: 480px;
+	padding-left: 20px;
+	overflow-y: scroll;
+}
+.addList li{
+	height: 80px;
+	line-height: 80px;
+	border-bottom: 1px solid #E3E3E3;/*no*/
+}
+.addCencal{
+	height: 100px;
+	line-height: 100px;
+	text-align: center;
+	border-top: 1px solid #E3E3E3;/*no*/
+	color: #0000ff;
+}

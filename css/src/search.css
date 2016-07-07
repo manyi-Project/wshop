@@ -1,0 +1,66 @@
+.search{
+    width: 720px;
+    margin: 0 auto;
+}
+.search .searchGroup{
+    width: 680px;
+    height: 54px;
+    margin: 20px auto 0;
+}
+.search .searchGroup_left{
+    width: 613px;
+    height: 54px;
+	line-height: 54px;
+	padding-left: 13px;
+    background-color: #dfdfdf;
+    font-size: 22px;
+}
+.search .searchGroup_left input[type='search']{
+	height: 54px;
+	width: 450px;
+	background-color: #dfdfdf;
+}
+.search .searchGroup_span{
+    color: #666;
+}
+.search .searchGroup_right{
+	color: #ff8400;
+	font-size: 24px;
+	height: 54px;
+	line-height: 54px;
+}
+.search .searchGroup_right input[type="submit"]{
+	color: #ff8400;
+	background-color: inherit;
+}
+.search .historySearchGroup{
+	width: 680px;
+	margin: 60px auto 0;
+}
+.search .historuSearch_tips{
+	font-size: 24px;
+	color: #555;
+}
+.search .historuSearch_delIcon{
+	width: 30px;
+	height: 30px;
+	background: url("../images/del.png") 0 0 no-repeat;
+	background-size: contain;
+}
+.search .historyList{
+	margin-top: 25px;
+}
+.search .historyList_box{
+	margin-right: 20px;
+	margin-bottom: 20px;
+}
+.search .historyList_box a{
+	display: block;
+	height: 40px;
+	line-height: 40px;
+	padding: 0 60px;
+	background-color: #eaeaea;
+	font-size: 20px;
+	color: #555;
+}
+.search .searchGroup{}

@@ -1,0 +1,58 @@
+.videoClassification a{
+    display: block;
+}
+.videoClassification .video_box{
+    width: 720px;
+    height: 320px;
+    margin-top: 8px;
+    position: relative;
+}
+.videoClassification .video_box_opacity{
+    width: 720px;
+    height: 320px;
+    text-align: center;
+    overflow: hidden;
+    padding-top: 114px;
+    background: url("../images/videoClassification/opacity.png") 0 0 repeat;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.videoClassification .video_icon{
+    width: 60px;
+    height: 60px;
+    margin: 0 auto 16px;
+    background: url("../images/videoClassification/play.png") 0 0 no-repeat;
+    background-size: contain;
+}
+.videoClassification .video_box img{
+    width: 100%;
+    height: 100%;
+}
+.videoClassification p{
+    color: #fff;
+    line-height: 100%;
+}
+.videoClassification .title{
+    font-size: 40px;
+}
+.videoClassification .triangle_one{
+    width: 92px;
+    height: 92px;
+    color: #fff;
+    line-height: 92px;
+    float: right;
+    background: url("../images/videoClassification/triangle.png") 0 0 no-repeat;
+    background-size: contain;
+}
+.videoClassification .price{
+    font-size: 18px;
+    -webkit-transform: rotate(-45deg) translateY(17px);
+    -moz-transform: rotate(-45deg) translateY(17px);
+    -ms-transform: rotate(-45deg) translateY(17px);
+    -o-transform: rotate(-45deg) translateY(17px);
+    transform: rotate(-45deg) translateY(17px);
+    display: block;
+}
+
+.videoClassification{}

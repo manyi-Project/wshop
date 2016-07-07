@@ -1,0 +1,4 @@
+.hasBeenCanceled{}
+.hasBeenCanceled .logistics{
+    display: none;
+}

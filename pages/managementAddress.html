@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="../css/main.min.css"/>
+    <script src="../js/jquery-1.11.3.min.js"></script>
+    <script src="../js/flexible.debug.js"></script>
+    <title>管理收货地址</title>
+</head>
+<body>
+    <div class="comment_title">
+        <a href="javascript:;">
+            <div class="comment_return">返回</div>
+        </a>
+        管理收货地址
+    </div>
+    <div class="address">
+        <div class="main">
+            <div class="address_box">
+                <p class="message"><span class="name">李鸿财</span><span class="telephone">18301035353</span></p>
+                <p class="addressInDetail">北京北京市东城区朝阳门内大街甲55号新闻出版大厦</p>
+                <div class="checkbox_circle"></div>
+            </div>
+        </div>
+        <div class="add_address">
+            <a href="javascript:;">
+                <div class="add_address_box">
+                    添加新地址
+                </div>
+            </a>
+        </div>
+    </div>
+</body>
+<script>
+    $(function () {
+        var a = true;
+        $(".checkbox_circle").each(function () {
+
+            $(this).click(function(){
+                if(a){
+                    $(this).addClass('checkbox_active').parents().siblings().find(".checkbox").removeClass('checkbox_active');
+                    a = false;
+                }else{
+                    $(this).removeClass('checkbox_active');
+                    a = true;
+                }
+            })
+        })
+    })
+</script>
+</html>

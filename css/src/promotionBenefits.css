@@ -1,0 +1,29 @@
+.promotionBenefits{
+    font-size: 22px;
+    color: #999;
+}
+.promotionBenefits .explain{
+
+    padding: 29px 31px 37px;
+    border-top: 1px solid #E3E3E3;
+}
+.promotionBenefits .explain P:last-child{
+    margin-top: 48px;
+}
+.promotionBenefits .tips2{
+    padding: 21px 30px 19px;
+    color: #666;
+}
+.promotionBenefits .course{
+    padding: 10px 31px 27px;
+}
+.promotionBenefits .course p{
+    line-height: 100%;
+    padding: 15px 0;
+}
+.promotionBenefits .tipsOne{
+    text-align: center;
+    line-height: 100%;
+    margin-top: 32px;
+}
+.promotionBenefits .a{}

@@ -1,0 +1,68 @@
+.orderSubmission a{
+    display: block;
+}
+.orderSubmission .submit_success{
+    height: 300px;
+    background-color: #ff8400;
+    overflow: hidden;
+}
+.orderSubmission .duihao{
+    width: 60px;
+    height: 60px;
+    background: url("../images/orderSubmission/duihao.png") 0 0 no-repeat;
+    background-size: contain;
+    margin: 28px auto 24px;
+}
+.orderSubmission .orderFont{
+    font-size: 28px;
+    color: #fff;
+    text-align: center;
+    line-height: 100%;
+    margin-bottom: 64px;
+}
+.orderSubmission .order_prompt{
+    font-size: 24px;
+    color: #fff;
+    text-align: center;
+    line-height: 100%;
+    margin-bottom: 9px;
+}
+.orderSubmission .order_number{
+    height: 180px;
+    background-color: #fff;
+    padding-top: 36px;
+    color: #666;
+    font-size: 24px;
+}
+.orderSubmission p{
+    line-height: 100%;
+    margin-bottom: 20px;
+}
+.orderSubmission .order_number_left{
+    width: 50%;
+    text-align: right;
+    float: left;
+}
+.orderSubmission .order_number_right{
+    width: 50%;
+    text-align: left;
+    float: right;
+}
+.orderSubmission .pay_immediately{
+    width: 680px;
+    height: 80px;
+    border-radius: 5px;
+    background-color: #ff8400;
+    margin: 56px auto 52px;
+    text-align: center;
+    line-height: 80px;
+    color: #fff;
+    font-size: 28px;
+}
+.orderSubmission .order_prompt2{
+    padding: 37px 90px;
+    font-size: 22px;
+    color: #999;
+    background-color: #fff;
+}
+.orderSubmission .a{}

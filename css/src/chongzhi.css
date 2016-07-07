@@ -1,0 +1,140 @@
+.recharge a{
+    display: block;
+}
+.recharge{
+    width: 720px;
+    margin: 0 auto;
+}
+.recharge .bankCard{
+    width: 100%;
+    height: 120px;
+    background-color: #FFFFFF;
+    margin-top: 20px;
+    padding: 23px;
+    position: relative;
+}
+.recharge .cardImg{
+    width: 74px;
+    height: 74px;
+    background-color: #d8d7d6;
+}
+.recharge .card_name{
+    padding-left: 26px;
+    position: relative;
+}
+.recharge .card_block{
+    display: block;
+}
+.recharge .card_firstName{
+    font-size: 26px;
+    color: #666;
+}
+.recharge .card_lastName{
+    font-size: 20px;
+    color: #999;
+    line-height: 200%;
+}
+.recharge .arrow{
+    width: 13px;
+    height: 22px;
+    background: url("../images/arrow.png") 0 0 no-repeat;
+    background-size: contain;
+    right: 21px;
+}
+.recharge .prompt{
+    height: 48px;
+    line-height: 48px;
+    padding-left: 22px;
+    font-size: 20px;
+    color: #999;
+}
+.recharge .money{
+    height: 88px;
+    /*line-height: 78px;*/
+    padding-left: 22px;
+    background-color: #FFFFFF;
+    position: relative;
+}
+.recharge .jine{
+    font-size: 28px;
+    color: #666666;
+    margin-right: 47px;
+}
+.recharge .textare{
+    width: 500px;
+    height: 60px;
+    border: 1px solid #E3E3E3;
+    border-radius: 5px;
+    background-color: #f3f3f3;
+    right: 100px;
+    font-size: 28px;
+}
+.recharge .sure{
+    width: 682px;
+    height: 80px;
+    background-color: #f3f3f3;
+    margin: 75px auto 0;
+    border-radius: 5px;
+    text-align: center;
+    line-height: 80px;
+    font-size: 28px;
+    color: #FFFFFF;
+}
+.recharge .ok{
+    background-color: #f4471f;
+}
+
+.recharge .marginAuto{
+    position: absolute;
+    margin: auto;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+}
+.recharge .alert_show{
+    width: 720px;
+    height: 100%;
+    background: url("../images/productDetails/opacity_alert.png") 0 0 repeat;
+    z-index: 20;
+    display: none;
+}
+.recharge .alert_inner{
+    width: 469px;
+    height: 285px;
+    background-color: #fff;
+    border-radius: 5px;
+}
+.recharge .alert_password{
+    color: #666;
+    font-size: 28px;
+    text-align: center;
+    margin-top: 40px;
+}
+.recharge .alert_font{
+    width: 90px;
+    height: 42px;
+    text-align: center;
+    line-height: 42px;
+    font-size: 24px;
+    color: #FFFFFF;
+    background-color: #ff8400;
+    margin: 0 auto;
+    border-radius: 5px;
+}
+.recharge .password{
+    margin: 44px 0 54px;
+    text-align: center;
+}
+.recharge .password input{
+    font-size: 28px;
+    text-align: center;
+    width: 38px;
+    height: 38px;
+    line-height: 100%;
+    display: inline-block;
+    margin-left: 1%;
+    border: 1px solid #ccc;/*no*/
+    padding: 0;
+}
+.recharge .abcd{}

@@ -1,0 +1,268 @@
+.peixinMall .main{
+    width: 720px;
+    margin: 0 auto;
+    /*overflow: hidden;*/
+    -webkit-box-flex: 1;
+    -o-box-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+    overflow: auto;
+}
+
+/************ͷ��***********/
+.peixinMall .title{
+    width: 720px;
+    margin: 0 auto;
+    height: 96px;
+    line-height: 96px;
+    background-color: #ff8400;
+    text-align: center;
+    color: #ffffff;
+    font-size: 36px;
+}
+
+/************������***********/
+.peixinMall .search_group{
+    width: 720px;
+    margin: 0 auto;
+    height: 74px;
+    background-color: #f8f6f3;
+    padding: 10px;
+    position: relative;
+}
+.peixinMall .search{
+    width: 700px;
+    height: 54px;
+    background-color: #dfdfdf;
+    border-radius: 10px;
+    outline: none;
+    border: none;
+}
+ .peixinMall .submit{
+     width: 54px;
+     height: 54px;
+     outline: none;
+     border: none;
+     background:#dfdfdf url(../images/peixinMall/iconfont-search.png) center center no-repeat;
+     border-radius: 10px;
+     position: absolute;
+     right: 10px;
+     top: 50%;
+     -webkit-transform: translateY(-50%);
+     -moz-transform: translateY(-50%);
+     -ms-transform: translateY(-50%);
+     -o-transform: translateY(-50%);
+     transform: translateY(-50%);
+ }
+/************�ֲ�ͼ***********/
+.peixinMall .swiper-container {
+    width: 100%;
+    height: 300px;
+}
+.peixinMall .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    /* Center slide text vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+}
+.peixinMall .swiper-slide img{
+    width: 100%;
+    height: 100%;
+}
+.peixinMall .swiper-pagination-bullet{
+    width: 10px;
+    height: 10px;
+    display: inline-block;
+    border-radius: 100%;
+    background: #e5e5e5;
+    opacity: 1;
+}
+.peixinMall .swiper-pagination-bullet-active{
+    background-color: #ff8400;
+}
+.peixinMall .swiper-container-horizontal>.swiper-pagination{
+    bottom: 15px;
+}
+
+/************ÿ�ճ齱��ÿ��ǩ��***********/
+.peixinMall .actionBar{
+    height: 140px;
+    padding: 10px 0;
+    background-color: #f8f6f3;
+}
+.peixinMall .actionBar_inner{
+    height: 120px;
+    padding: 13px 0 0 43px;
+    background-color: #fff;
+    overflow: hidden;
+}
+.peixinMall .actionBar_ul{
+    width: 740px;
+}
+.peixinMall .actionBar_li{
+    height: 92px;
+    width: 90px;
+    float: left;
+    margin-right: 90px;
+}
+.peixinMall .actionBar_box{
+    width: 60px;
+    height: 60px;
+    margin: 0 auto;
+    border-radius: 10px;
+    background-color: #e7562a;
+}
+.peixinMall .actionBar_box img{
+    width: 100%;
+    height: 100%;
+}
+.peixinMall .actionBar_font{
+    margin-top: 6px;
+    font-size: 20px;
+    text-align: center;
+    color: #666666;
+}
+.peixinMall .listOfGoods{
+    width: 680px;
+    margin: 20px auto 0;
+    overflow: hidden;
+}
+.peixinMall .listOfGoods_inner{
+    width: 700px;
+}
+.peixinMall .listOfGoods_box{
+    width: 330px;
+    height: 231px;
+    float: left;
+    margin: 0 20px 20px 0;
+    position: relative;
+}
+.peixinMall .listOfGoods_box img{
+    width: 100%;
+    height: 100%;
+}
+.peixinMall .label{
+    height: 60px;
+    padding: 0 24px;
+    line-height: 60px;
+    text-align: center;
+    color: #ff8400;
+    font-size: 28px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    background: url("../images/peixinMall/bg.png") 0 0 repeat;
+}
+
+/************�ײ�����***********/
+.bottom_navbar{
+    height: 96px;
+    border-top: 1px solid #e3e3e3;/*no*/
+    width: 720px;
+    margin: 0 auto;
+}
+.bottom_navbar_ul{
+    margin-left: 70px;
+    margin-top: 13px;
+    width: 800px;
+}
+.bottom_navbar_li{
+    height: 70px;
+    float: left;
+    margin-right: 130px;
+}
+.bottom_navbar_font{
+    font-size: 22px;
+    color: #666666;
+}
+.bottom_navbar_iconone{
+     background-image: url("../images/peixinMall/shouye.png");
+     background-repeat: no-repeat;
+}
+.bottom_navbar_icontwo{
+    background-image: url("../images/peixinMall/fenlei.png");
+    background-repeat: no-repeat;
+}
+.bottom_navbar_iconthree{
+    background-image: url("../images/peixinMall/shopcar.png");
+    background-repeat: no-repeat;
+}
+.bottom_navbar_iconfour{
+    background-image: url("../images/peixinMall/my.png");
+    background-repeat: no-repeat;
+}
+.bottom_navbar_icon0{
+    background-image: url("../images/peixinMall/shouye1.png");
+    background-repeat: no-repeat;
+}
+.bottom_navbar_icon1{
+    background-image: url("../images/peixinMall/fenlei1.png");
+    background-repeat: no-repeat;
+}
+.bottom_navbar_icon2{
+    background-image: url("../images/peixinMall/shopcar1.png");
+    background-repeat: no-repeat;
+}
+.bottom_navbar_icon3{
+    background-image: url("../images/peixinMall/my1.png");
+    background-repeat: no-repeat;
+}
+.bottom_navbar_font1{
+    font-size: 22px;
+    color: #ff8400;
+}
+.bottom_navbar_icon{
+    width: 44px;
+    height: 44px;
+    margin: 0 auto;
+    margin-bottom: 7px;
+    background-size: contain;
+}
+.bottom_navbar_li_alert{
+    position: relative;
+}
+.alert_box{
+    width: 118px;
+    text-align: center;
+    background-color: #fdfdfd;
+    position: absolute;
+    bottom: 98px;
+    left: 50%;
+    margin-left: -59px;
+    padding: 5px 0;
+    border-radius: 5px;
+    display: none;
+    z-index: 1100;
+}
+.alert_box p{
+    padding: 10px 0;
+    font-size: 22px;
+}
+.alert_box p a{
+    color: #333333;
+}
+.triangle{
+    width: 0;
+    height: 0;
+    border-top: 11px solid #fdfdfd;
+    border-right: 11px solid transparent;
+    border-bottom: 11px solid transparent;
+    border-left: 11px solid transparent;
+    position: absolute;
+    bottom: -20px;
+    left: 50%;
+    margin-left: -11px;
+}
+.peixinMall{}

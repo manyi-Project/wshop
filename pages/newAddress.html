@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>新建收货地址</title>
+    <link href="../css/src/mobiscroll.android-ics-2.5.2.css" rel="stylesheet" type="text/css" />
+    <link href="../css/src/mobiscroll.core-2.5.2.css" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" type="text/css" href="../css/main.min.css" />
+    <script type="text/javascript" src="../js/jquery-1.11.3.min.js" ></script>
+    <script type="text/javascript" src="../js/flexible.debug.js"></script>
+    <style>
+        body{
+            position: relative;
+        }
+    </style>
+</head>
+<body>
+<div class="comment_title">
+    <a href="javascript:;" class="comment_return">返回</a>
+    新建收货地址
+</div>
+<div class="main">
+    <div class="my_main n_main">
+        <div class="n_information">
+            <form action="" method="post">
+                <input type="text" value="" class="n_place n_name" placeholder="收货人姓名" />
+                <input type="text" value="" class="n_place n_tel" placeholder="手机号" />
+                <input type="text" value="" class="n_place n_postcode" placeholder="邮政编码" />
+                <span id="province" class="province">
+                    <span>省份</span><input type="text" readonly="readonly"/>
+                </span>
+                <span id="city" class="province">
+                    <span>城市</span><input type="text" readonly="readonly"/>
+                </span>
+                <span id="area" class="province">
+                    <span>县/区</span><input type="text" readonly="readonly"/>
+                </span>
+                <textarea class="a_detail">详细地址</textarea>
+            </form>
+        </div>
+        <div class="n_saveAddress">
+            <a href="###" class="n_save">
+                保存地址
+            </a>
+        </div>
+    </div>
+</div>
+<div class="addModal">
+    <div class="modalInner">
+        <h3 class="addTitle"></h3>
+        <ul id="addList" class="addList">
+
+        </ul>
+        <div class="addCencal">
+            取消
+        </div>
+    </div>
+</div>
+</body>
+<script src="../js/mobiscroll.core-2.5.2.js" type="text/javascript"></script>
+<script src="../js/mobiscroll.core-2.5.2-zh.js" type="text/javascript"></script>
+<script src="../js/mobiscroll.android-ics-2.5.2.js" type="text/javascript"></script>
+<script src="../js/mobiscroll.list-2.5.1.js" type="text/javascript"></script>
+<script type="text/javascript" src="../js/newAddress.js" ></script>
+</html>

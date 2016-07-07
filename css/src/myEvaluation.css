@@ -1,0 +1,35 @@
+.myEvaluation .name{
+    color: #666;
+}
+.myEvaluation .time{
+    color: #999999;
+}
+.myEvaluation .evalution{
+    border-top: 1px solid #E3E3E3;
+    padding: 18px 21px 27px;
+}
+.myEvaluation .evalution_tips{
+    color: #ff8400;
+    font-size: 24px;
+    line-height: 100%;
+}
+.myEvaluation .img_list{
+    margin-top: 40px;
+}
+.myEvaluation .img_box{
+    width: 88px;
+    height: 80px;
+    background-color: #E3E3E3;
+    margin-left: 40px;
+    margin-bottom: 26px;
+}
+.myEvaluation .fontP{
+    color: #666;font-size: 22px
+}
+.myEvaluation .reply{
+    padding: 33px 25px;
+    color: #666666;
+    font-size: 24px;
+    margin-top: 20px;
+}
+.myEvaluation .a{}

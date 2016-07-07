@@ -1,0 +1,62 @@
+.coupon .coupon_box{
+    width: 678px;
+    height: 228px;
+    margin: 20px auto;
+    border: 1px solid #e3e3e3;
+    background-color: #FFFFFF;
+    border-radius: 10px;
+    padding:0 20px;
+}
+.coupon .coupon_top{
+    height: 165px;
+    position: relative;
+}
+
+.coupon .numb{
+    font-size: 80px;
+    color: #ff8400;
+    left: 86px;
+    line-height: 100%;
+}
+.coupon .shuoming{
+    left: 142px;
+}
+.coupon .p1{
+    font-size: 36px;
+    color: #ff8400;
+    line-height: 100%;
+}
+.coupon .p2{
+    font-size: 30px;
+    color: #666;
+    line-height: 100%;
+}
+.coupon .coupon_bottom{
+    color: #999;
+    font-size: 20px;
+    padding: 15px 0;
+    border-top: 1px solid #E3E3E3;
+}
+.coupon .ash .numb,.coupon .ash .p1,.coupon .ash .p2,.coupon .ash .coupon_bottom{
+    color: #e3e3e3;
+}
+.coupon .ash{
+    position: relative;
+}
+.coupon .expired{
+    width: 108px;
+    height: 36px;
+    border: 1px solid #ff0909;
+    color: #ff0909;
+    position: absolute;
+    right: 50px;
+    text-align: center;
+    line-height: 36px;
+    font-size: 22px;
+    -webkit-transform: rotate(-30deg);
+    -moz-transform: rotate(-30deg);
+    -ms-transform: rotate(-30deg);
+    -o-transform: rotate(-30deg);
+    transform: rotate(-30deg);
+}
+.coupon .a{}

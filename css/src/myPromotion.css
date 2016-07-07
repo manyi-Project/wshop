@@ -1,0 +1,140 @@
+.myPromotion .my_record,.promotionBenefits .my_record,.myEvaluation .my_record{
+    height: 87px;
+    line-height: 63px;
+    padding: 12px 20px;
+    font-size: 24px;
+    color: #666;
+}
+.myPromotion .user_img,.promotionBenefits .user_img,.myEvaluation .user_img{
+    width: 64px;
+    height: 64px;
+    border-radius: 50%;
+    background-color: #e3e3e3;
+    margin-right: 20px;
+}
+.myPromotion .user_pro{
+    height: 122px;
+    border-top: 1px solid #E3E3E3;
+    font-size: 24px;
+    color: #999999;
+    text-align: center;
+}
+.myPromotion .user_pro p{
+    line-height: 100%;
+}
+.myPromotion .user_pro p:first-child{
+    margin: 29px 0 23px;
+    color: #666666;
+}
+.myPromotion .expectedReturn{
+    padding: 26px 20px;
+    border-top: 1px solid #E3E3E3;
+}
+.myPromotion .expectedReturn .title{
+    font-size: 28px;
+    line-height: 100%;
+    color: #666666;
+}
+.myPromotion .expectedReturn p{
+    color: #999;
+    font-size: 18px;
+    line-height: 100%;
+    text-align: center;
+}
+.myPromotion .expectedReturn .firstP{
+    color: #ff8400;
+    font-size: 28px;
+    margin: 18px 0 55px;
+}
+.myPromotion .list_out{
+    margin: 20px 0;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-flow: row wrap;
+    justify-content: space-around;
+}
+.myPromotion .list_li{
+    min-width: 360px;
+    border-bottom: 1px solid #E3E3E3;/*no*/
+    color: #000;
+    padding-top: 26px;
+    padding-bottom: 25px;
+}
+.myPromotion .list_li:nth-child(odd){
+    border-right: 1px solid #E3E3E3;/*no*/
+}
+.myPromotion .list_li:nth-last-child(1),
+.myPromotion .list_li:nth-last-child(2){
+    border-bottom: none;
+}
+.myPromotion .list_li p{
+    line-height: 100%;
+    text-align: center;
+}
+.myPromotion .list_li p:first-child{
+    font-size: 28px;
+    color: #207dcc;
+    margin-bottom: 26px;
+}
+.myPromotion .list_li p:last-child{
+    font-size: 24px;
+    color: #666;
+}
+.myPromotion .bankCard{
+    width: 100%;
+    height: 134px;
+    background-color: #FFFFFF;
+    padding: 30px 23px;
+    position: relative;
+}
+.myPromotion .cardImg{
+    width: 74px;
+    height: 74px;
+    background-color: #d8d7d6;
+}
+.myPromotion .card_name{
+    padding-left: 26px;
+    position: relative;
+}
+.myPromotion .card_block{
+    display: block;
+}
+.myPromotion .card_firstName{
+    font-size: 26px;
+    color: #666;
+}
+.myPromotion .card_lastName{
+    font-size: 20px;
+    color: #999;
+    line-height: 200%;
+}
+.myPromotion .arrow{
+    width: 13px;
+    height: 22px;
+    background: url("../images/arrow.png") 0 0 no-repeat;
+    background-size: contain;
+    right: 21px;
+}
+.myPromotion .promotionShop{
+    line-height: 79px;
+    border-bottom: 1px solid #E3E3E3;
+    font-size: 28px;
+    color: #666666;
+    padding-left: 20px;
+}
+.myPromotion .now,.promotionBenefits .now{
+    display: block;
+    width: 682px;
+    height: 80px;
+    border-radius: 5px;
+    background-color: #f4471f;
+    line-height: 80px;
+    text-align: center;
+    color: #FFFFFF;
+    font-size: 30px;
+    margin: 67px auto 74px;
+}
+.myPromotion .abc{}

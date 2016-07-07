@@ -1,0 +1,133 @@
+.tips{
+    width: 720px;
+    height: 56px;
+    margin: 5px auto 0;
+    background-color: #ffffff;
+    padding-left: 20px;
+    line-height: 56px;
+    color: #ff8d24;
+    font-size: 28px;
+}
+.all_checkbox{
+    width: 720px;
+    padding: 10px 0 10px 19px;
+    margin: 0 auto;
+    background-color: #f8f6f3;
+}
+.input_checkbox{
+    width: 20px;
+    height: 20px;
+    background-color: #e0e0e0;
+    float: left;
+    outline: 0;
+}
+.checkbox_font{
+    height: 20px;
+    line-height: 20px;
+    float:left;
+    margin-left: 12px;
+}
+.stayPay .main{
+    width: 720px;
+    margin: 0 auto;
+    overflow-x: hidden;
+}
+.stayPay .shoppingList_box_outer{
+    position: relative;
+    margin-bottom: 17px;
+}
+.stayPay .checkbox_box{
+    position: absolute;
+    top: 22px;
+    left: 19px;
+}
+.stayPay .shoppingList_box{
+    padding: 0 50px;
+    background-color: #ffffff;
+}
+.stayPay .shoppingList_box li{
+    border-bottom: 1px solid #e3e3e3;/*no*/
+}
+.stayPay .shoppingList_box li:last-child{
+    border-bottom: none;
+}
+.stayPay .item_title{
+    /*height: 107px;*/
+    padding: 18px 0 16px 0;
+    position: relative;
+}
+.stayPay .item_title_img{
+    width: 76px;
+    height: 76px;
+    background-color: #7f4b2c;
+    float: left;
+}
+.stayPay .item_title_img img{
+    width: 100%;
+    height: 100%;
+}
+.stayPay .mainTitle{
+    font-size: 24px;
+    color: #666;
+    padding-left: 104px;
+    padding-top: 10px;
+}
+.stayPay .Subtitle{
+    font-size: 20px;
+    color: #999;
+    padding-left: 104px;
+    padding-top: 5px;
+}
+.stayPay .arrow{
+    width: 13px;
+    height: 22px;
+    background-image: url("../images/orderList/arrow.png");
+    background-size: cover;
+    position: absolute;
+    right: 0;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+.stayPay .item_number{
+    padding: 20px 0 24px 0;
+}
+.stayPay .item_number_left{
+    float: left;
+}
+.stayPay .textAlign_right{text-align: right}
+.stayPay .textAlign_left{text-align: left}
+.stayPay .item_font{
+    font-size: 20px;
+    color: #666;
+}
+.stayPay .item_font1{
+    margin-bottom: 15px;
+}
+/*.stayPay .item_logistics{*/
+    /*height: 60px;*/
+    /*padding-right: 12px;*/
+/*}*/
+/*.stayPay .logistics{*/
+    /*width: 110px;*/
+    /*height: 40px;*/
+    /*border-radius: 5px;*/
+    /*line-height: 40px;*/
+    /*color: #FF8400;*/
+    /*font-size: 20px;*/
+    /*text-align: center;*/
+    /*border: 1px solid #FF8400;*/
+    /*float: right;*/
+    /*-webkit-transform: translateY(25%);*/
+    /*-moz-transform: translateY(25%);*/
+    /*-ms-transform: translateY(25%);*/
+    /*-o-transform: translateY(25%);*/
+    /*transform: translateY(25%);*/
+/*}*/
+/*.stayPay .logistics1{*/
+    /*margin-right: 30px;*/
+/*}*/
+.stayPay{}

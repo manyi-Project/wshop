@@ -1,0 +1,48 @@
+.balance a{
+    display: block;
+}
+.balance{
+    width: 720px;
+    margin: 0 auto;
+}
+.balance .main{
+    padding: 0 20px;
+    background-color: #fff;
+}
+.balance .title{
+    padding: 22px 23px;
+    font-size: 22px;
+    color: #666666;
+    margin: 20px 0;
+    background-color: #fff;
+}
+.balance .bankCard{
+    width: 100%;
+    padding: 13px 0;
+    background-color: #FFFFFF;
+    border-bottom: 1px solid #E3E3E3;
+    position: relative;
+}
+.balance .card_name{
+    position: relative;
+}
+.balance .card_firstName{
+    font-size: 26px;
+    color: #666;
+}
+.balance .card_lastName{
+    font-size: 20px;
+    color: #999;
+    line-height: 200%;
+}
+.balance .percentage{
+    font-size: 20px;
+    color: #999;
+    line-height: 200%;
+}
+.balance .nine99{
+    color: #999;
+}
+.balance .money{
+    color: #666;
+}

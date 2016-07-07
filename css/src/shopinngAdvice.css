@@ -1,0 +1,63 @@
+.shoppingAdivce .main{
+    -webkit-box-flex: 1;
+    -o-box-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+    overflow: auto;
+    padding: 0 20px;
+}
+.shoppingAdivce .message_list li{
+    line-height: 66px;
+    font-size: 22px;
+}
+.shoppingAdivce .message_left{
+    text-align: left;
+}
+.shoppingAdivce .message_left::before{
+    content: '';
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background: url("../images/ellipse.png") 0 0 no-repeat;
+    background-size: contain;
+    margin-right: 16px;
+}
+.shoppingAdivce .message_right{
+    text-align: right;
+}
+.shoppingAdivce .message_right::after{
+    content: '';
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background: url("../images/ellipse.png") 0 0 no-repeat;
+    background-size: contain;
+    margin-left: 16px;
+}
+.shoppingAdivce .dialog_box{
+    width: 720px;
+    margin: 0 auto;
+    height: 88px;
+    background-color: #E3E3E3;
+    position: relative;
+}
+.shoppingAdivce .user_img{
+    width: 50px;
+    height: 50px;
+    background-color: #da8b8b;
+    border-radius: 50%;
+    left: 22px;
+}
+.shoppingAdivce .dialog{
+    width: 494px;
+    height: 58px;
+    background-color: #f8f6f3;
+    border: 1px solid #dadada;/*no*/
+    font-size: 28px;
+    border-radius: 10px;
+}
+.shoppingAdivce .send{
+    font-size: 22px;
+    right: 48px;
+}
+.shoppingAdivce .dialog_box{}

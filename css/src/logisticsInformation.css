@@ -1,0 +1,26 @@
+.logisticsInformation .main{
+    width: 720px;
+    height: 100%;
+    margin: 0 auto;
+    padding: 0 40px;
+    -webkit-box-flex: 1;
+    -o-box-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+    overflow: hidden;
+}
+.logisticsInformation .logistics_list{
+    height: 100%;
+    border-left: 1px solid #5e6b85;
+    padding-top: 54px;
+}
+.logisticsInformation .logistics_list li{
+    background: url("../images/orderSubmission/tuoyuan.png") 0 0 no-repeat;
+    margin-left: -13px;
+    padding-left: 38px;
+    font-size: 22px;
+    color: #666;
+    line-height: 32px;
+    margin-bottom: 40px;
+}
+.logisticsInformation .a{}

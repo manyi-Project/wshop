@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>发表评价</title>
+    <link rel="stylesheet" type="text/css" href="../css/main.min.css" />
+    <script src="../js/jquery-1.11.3.min.js"></script>
+    <script src="../js/flexible.debug.js"></script>
+</head>
+<body>
+    <div class="comment_title">
+        <a href="javascript:;">
+            <div class="comment_return">返回</div>
+        </a>
+        发表评价
+    </div>
+    <div class="evaluate">
+        <div class="main">
+            <div class="textare clearfix">
+                <div class="textare_img">
+                    <img src="../images/evaluate/abc.png" alt=""/>
+                </div>
+                <textarea class="textareaBox" name="n_name" cols="48"  rows="5">现在可以使用语音评价了，请说出或写下对宝贝的感受吧，对其他人帮助很大哦~"></textarea>
+                <div class="sendPhotos_box clearfix">
+                    <div class="sendPhotos">
+                        <input id="file" style="width: 100%;height: 100%;opacity:0;" type="file" accept="image/*"/>
+                        <img id="img" src="" alt=""/>
+                    </div>
+                    <div class="img_box">
+                        <img src="" alt="暂无图片"/>
+                    </div>
+                </div>
+            </div>
+            <div id="AddDP" class="clearfix">
+                <form name="formappraisement" action="" method="">
+                    <input name="appraisementflag" id="appraisementflag" value="0" type="hidden">
+                    <input id="appraisementcity" name="appraisementcity" value="168" type="hidden">
+                    <input id="appraisementstoreid" name="appraisementstoreid" value="3edcff4f33564c4f9ddf6e2026135eea" type="hidden">
+                    <input id="rating" name="serving" value="" type="hidden">
+                    <input id="taste" name="taste" value="" type="hidden">
+                    <input id="price" name="price" value="" type="hidden">
+                    <input id="environment" name="environment" value="" type="hidden">
+                    <div>
+                        <ul class="Star">
+                            <li>
+                            <span class="Select">
+                                <span class="Star_font">描述相符</span>
+                                <a href="javascript:setProfix('star_');setStars(1,'rating');">
+                                    <img id="star_1" title="差(1)" src="../images/evaluate/xing1.png">
+                                </a>
+                                <a href="javascript:setProfix('star_');setStars(2,'rating');">
+                                    <img id="star_2" title="一般(2)" src="../images/evaluate/xing1.png">
+                                </a>
+                                <a href="javascript:setProfix('star_');setStars(3,'rating');">
+                                    <img id="star_3" title="好(3)" src="../images/evaluate/xing1.png">
+                                </a>
+                                <a href="javascript:setProfix('star_');setStars(4,'rating');">
+                                    <img id="star_4" title="很好(4)" src="../images/evaluate/xing1.png">
+                                </a>
+                                <a href="javascript:setProfix('star_');setStars(5,'rating');">
+                                    <img id="star_5" title="非常好(5)" src="../images/evaluate/xing1.png">
+                                </a>
+                            </span>
+                            </li>
+                            <li>
+                            <span class="Select">
+                                <span class="Star_font">店铺评分</span>
+                                <a href="javascript:setProfix('taste_');setStars(1,'taste');">
+                                    <img id="taste_1" title="差(1)" src="../images/evaluate/xing1.png">
+                                </a>
+                                <a href="javascript:setProfix('taste_');setStars(2,'taste');">
+                                    <img id="taste_2" title="一般(2)" src="../images/evaluate/xing1.png">
+                                </a>
+                                <a href="javascript:setProfix('taste_');setStars(3,'taste');">
+                                    <img id="taste_3" title="好(3)" src="../images/evaluate/xing1.png">
+                                </a>
+                                <a href="javascript:setProfix('taste_');setStars(4,'taste');">
+                                    <img id="taste_4" title="很好(4)" src="../images/evaluate/xing1.png">
+                                </a>
+                                <a href="javascript:setProfix('taste_');setStars(5,'taste');">
+                                    <img id="taste_5" title="非常好(5)" src="../images/evaluate/xing1.png">
+                                </a>
+                            </span>
+                            </li>
+                            <li>
+                            <span class="Select">
+                                <span class="Star_font">发货速度</span>
+                                <a href="javascript:setProfix('environment_');setStars(1,'environment');">
+                                    <img id="environment_1" title="差(1)" src="../images/evaluate/xing1.png">
+                                </a>
+                                <a href="javascript:setProfix('environment_');setStars(2,'environment');">
+                                    <img id="environment_2" title="一般(2)" src="../images/evaluate/xing1.png">
+                                </a>
+                                <a href="javascript:setProfix('environment_');setStars(3,'environment');">
+                                    <img id="environment_3" title="好(3)" src="../images/evaluate/xing1.png">
+                                </a>
+                                <a href="javascript:setProfix('environment_');setStars(4,'environment');">
+                                    <img id="environment_4" title="很好(4)" src="../images/evaluate/xing1.png">
+                                </a>
+                                <a href="javascript:setProfix('environment_');setStars(5,'environment');">
+                                    <img id="environment_5" title="非常好(5)" src="../images/evaluate/xing1.png">
+                                </a>
+                            </span>
+                            </li>
+                            <li>
+                            <span class="Select">
+                                <span class="Star_font">服务态度</span>
+                                <a  href="javascript:setProfix('price_');setStars(1,'price');">
+                                    <img id="price_1" title="差(1)" src="../images/evaluate/xing1.png">
+                                </a>
+                                <a href="javascript:setProfix('price_');setStars(2,'price');">
+                                    <img id="price_2" title="一般(2)" src="../images/evaluate/xing1.png">
+                                </a>
+                                <a href="javascript:setProfix('price_');setStars(3,'price');">
+                                    <img id="price_3" title="好(3)" src="../images/evaluate/xing1.png">
+                                </a>
+                                <a href="javascript:setProfix('price_');setStars(4,'price');">
+                                    <img id="price_4" title="很好(4)" src="../images/evaluate/xing1.png">
+                                </a>
+                                <a href="javascript:setProfix('price_');setStars(5,'price');">
+                                    <img id="price_5" title="非常好(5)" src="../images/evaluate/xing1.png">
+                                </a>
+                            </span>
+                            </li>
+                        </ul>
+                    </div>
+                </form>
+            </div>
+        </div>
+        <div class="alert_show marginAuto">
+            <div class="alert_inner marginAuto">
+                <div class="alert_img"></div>
+                <p class="alert_font">评论成功</p>
+            </div>
+        </div>
+        <div class="Comment clearfix">
+            <div class="Comment_left cl">
+                <div class="duihao fl">
+                    <input type="checkbox"/>
+                </div>
+                <span class="Comment_left_font fl">匿名评价</span>
+            </div>
+            <a href="javascript:;">
+                <div class="Comment_right">发表评价</div>
+            </a>
+        </div>
+    </div>
+</body>
+<script>
+    $(function () {
+        $(".duihao").click(function () {
+            $(this).toggleClass("checked");
+        });
+        $(".textareaBox").textRemindAuto();
+        $(".Comment_right").on("touchend", function () {
+            if ($("#rating").val() == ""){
+                alert("请给描述相符打分")
+            }else if ($("#taste").val() == ""){
+                alert("请给店铺评分打分")
+            }else if ($("#environment").val() == ""){
+                alert("请给发货速度打分")
+            }else if ($("#price").val() == ""){
+                alert("请给服务态度打分")
+            }else{
+                $(".alert_show").fadeIn("slow");
+                setTimeout(function () {
+                    $(".alert_show").fadeOut("slow");
+                },1500)
+            }
+        });
+    $.fn.textRemindAuto = function(options){
+        options = options || {};
+        var defaults = {
+            blurColor: "#c9c9c9",
+            focusColor: "#666",
+            auto: true,
+            chgClass: ""
+        };
+        var settings = $.extend(defaults,options);
+        $(this).each(function(){
+            if(defaults.auto){
+                $(this).css("color",settings.blurColor);
+            }
+            var v = $.trim($(this).val());
+            if(v){
+                $(this).focus(function(){
+                    if($.trim($(this).val()) === v){
+                        $(this).val("");
+                    }
+                    $(this).css("color",settings.focusColor);
+                    if(settings.chgClass){
+                        $(this).toggleClass(settings.chgClass);
+                    }
+                }).blur(function(){
+                    if($.trim($(this).val()) === ""||$.trim($(this).val()) === "v"){
+                        $(this).val(v);
+                        $(this).css("color",settings.blurColor);
+                    }
+                });
+            }
+        })
+    }
+</script>
+<script language="javascript">
+    var sArray = {};
+    sArray[0] = new Image;
+    sArray[0].src = "../images/evaluate/xing1.png";
+    for (var i=1; i<6; i++) {
+        sArray[i] = new Image();
+        sArray[i].src = "../images/evaluate/xing2.png";
+    }
+    var starTimer;
+    var pro ;
+    var rate ;
+    function showStars(starNum,rate) {
+        try {
+            clearStarTimer();
+            greyStars();
+            colorStars(starNum);
+        } catch(e){}
+        //setStars(starNum,rate);
+    }
+    function setProfix(profix) {
+        pro = profix ;
+    }
+    function colorStars(starNum) {
+        try {
+            for (var i=1; i <= starNum; i++) {
+                var tmpStar = document.getElementById(pro + i);
+                tmpStar.src = sArray[starNum].src;
+            }
+        } catch(e){}
+    }
+    function greyStars() {
+        try {
+            for (var i=1; i<6; i++) {
+                var tmpStar = document.getElementById(pro + i);
+                tmpStar.src = sArray[0].src;
+            }
+        } catch(e){}
+    }
+    function setStars(starNum,rate) {
+        rate = rate ;
+        try {
+            clearStarTimer();
+            var rating = document.getElementById(rate);
+            rating.value = starNum;
+            showStars(starNum);
+        } catch(e){}
+    }
+    function clearStarTimer() {
+        if (starTimer) {
+            clearTimeout(starTimer);
+            starTimer = null;
+        }
+    }
+</script>
+</html>

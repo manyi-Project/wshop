@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>重庆培新商城</title>
+    <link rel="stylesheet" href="../css/main.min.css"/>
+    <script src="../js/jquery-1.11.3.min.js"></script>
+    <script src="../js/flexible.debug.js"></script>
+</head>
+<body>
+    <div class="peixinMall">
+    <div class="title">重庆培新商城</div>
+    <!----------搜索框---------->
+    <form action="" method="" class="search_group">
+        <input class="search" type="text" placeholder="搜索商品"/>
+        <input class="submit" type="submit" value=""/>
+    </form>
+    <div class="main">
+        <!----------轮播图---------->
+        <div class="swiper-container">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide"><img src="../images/peixinMall/lunbo.jpg" alt=""/></div>
+                <div class="swiper-slide"><img src="../images/peixinMall/lunbo.jpg" alt=""/></div>
+                <div class="swiper-slide"><img src="../images/peixinMall/lunbo.jpg" alt=""/></div>
+                <div class="swiper-slide"><img src="../images/peixinMall/lunbo.jpg" alt=""/></div>
+            </div>
+            <div class="swiper-pagination"></div>
+        </div>
+        <!----------每日签到、每日抽奖---------->
+        <div class="actionBar">
+            <div class="actionBar_inner">
+                <ul class="actionBar_ul clearfix">
+                    <li class="actionBar_li">
+                        <div class="actionBar_box actionBar_box1">
+                            <img src="../images/peixinMall/qiandao.png" alt=""/>
+                        </div>
+                        <p class="actionBar_font">每日签到</p>
+                    </li>
+                    <li class="actionBar_li">
+                        <div class="actionBar_box actionBar_box2">
+                            <img src="../images/peixinMall/qiandao.png" alt=""/>
+                        </div>
+                        <p class="actionBar_font">每日抽奖</p>
+                    </li>
+                    <li class="actionBar_li">
+                        <div class="actionBar_box actionBar_box3">
+                            <img src="../images/peixinMall/qiandao.png" alt=""/>
+                        </div>
+                        <p class="actionBar_font">新品上架</p>
+                    </li>
+                    <li class="actionBar_li">
+                        <div class="actionBar_box actionBar_box4">
+                            <img src="../images/peixinMall/qiandao.png" alt=""/>
+                        </div>
+                        <p class="actionBar_font">限时特价</p>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <!----------商品列表-------->
+        <div class="listOfGoods">
+            <div class="listOfGoods_inner clearfix">
+                <div class="listOfGoods_box">
+                    <img src="../images/peixinMall/fenlei.jpg" alt=""/>
+                    <div class="label">视频包</div>
+                </div>
+                <div class="listOfGoods_box">
+                    <img src="../images/peixinMall/fenlei.jpg" alt=""/>
+                    <div class="label">自营商店</div>
+                </div>
+                <div class="listOfGoods_box">
+                    <img src="../images/peixinMall/fenlei.jpg" alt=""/>
+                </div>
+                <div class="listOfGoods_box">
+                    <img src="../images/peixinMall/fenlei.jpg" alt=""/>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!----------底部导航---------->
+    <div class="bottom_navbar">
+        <ul class="bottom_navbar_ul clearfix">
+            <li id="homePage" class="bottom_navbar_li">
+                <a href="###" class="li_a">
+                    <div class="bottom_navbar_icon bottom_navbar_iconone"></div>
+                    <p class="bottom_navbar_font">首页</p>
+                </a>
+            </li>
+            <li id="classification" class="bottom_navbar_li bottom_navbar_li_alert">
+                <div class="alert_box" id="alert_box">
+                    <p><a href="javascript:;">幼儿馆</a></p>
+                    <p><a href="javascript:;">小学馆</a></p>
+                    <p><a href="javascript:;">初中馆</a></p>
+                    <p><a href="javascript:;">高中馆</a></p>
+                    <p><a href="javascript:;">学霸区</a></p>
+                    <p><a href="javascript:;">会员专区</a></p>
+                    <p><a href="javascript:;">视频专区</a></p>
+                    <p><a href="javascript:;">衣食住行</a></p>
+                    <div class="triangle"></div>
+                </div>
+                <a href="###" class="li_a">
+                    <div class="bottom_navbar_icon bottom_navbar_icontwo"></div>
+                    <p class="bottom_navbar_font">分类</p>
+                </a>
+            </li>
+            <li id="shoppingCart" class="bottom_navbar_li">
+                <a href="###" class="li_a">
+                    <div class="bottom_navbar_icon bottom_navbar_iconthree"></div>
+                    <p class="bottom_navbar_font">购物车</p>
+                </a>
+            </li>
+            <li id="my" class="bottom_navbar_li">
+                <a href="###" class="li_a">
+                    <div class="bottom_navbar_icon bottom_navbar_iconfour"></div>
+                    <p class="bottom_navbar_font">我的</p>
+                </a>
+            </li>
+        </ul>
+    </div>
+</div>
+</body>
+<link rel="stylesheet" href="../css/swiper-3.2.7.min.css"/>
+<script src="../js/swiper-3.2.7.min.js"></script>
+<script src="../js/bottom_navbar.js"></script>
+<script language="javascript">
+    var mySwiper = new Swiper('.swiper-container',{
+        pagination : '.swiper-pagination',
+        paginationClickable:true
+    });
+</script>
+</html>

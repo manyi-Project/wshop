@@ -1,0 +1,76 @@
+.address a{
+    display: block;
+}
+.address .main{
+    width: 720px;
+    margin: 0 auto;
+    overflow-x: hidden;
+}
+.address .address_box{
+    height: 150px;
+    background-color: #5e6b85;
+    margin-top: 1px;/*no*/
+    padding-left: 20px;
+    color: #fff;
+    overflow: hidden;
+    position: relative;
+}
+.address .message{
+    margin-top: 21px;
+}
+.address .name,.address .telephone{
+    font-size: 34px;
+}
+.address .telephone{
+    margin-left: 292px;
+}
+.address .addressInDetail{
+    margin-top: 20px;
+    font-size: 24px;
+}
+.address .checkbox_circle{
+    width: 40px;
+    height: 40px;
+    background: url("../images/orderList/xiaoduihao1.png") 0 0 no-repeat;
+    background-size: contain;
+    border-radius: 50%;
+    position: absolute;
+    right: 20px;
+    top: 72px;
+}
+.address .checkbox_active{
+    background: url("../images/orderList/xiaoduihao.png") 0 0 no-repeat;
+    background-size: contain;
+}
+.address .add_address{
+    width: 720px;
+    margin: 0 auto;
+    height: 96px;
+    background-color: #fff;
+    border-top: 1px solid #d0d0d0;/*no*/
+    position: fixed;
+    bottom: 0;
+    left: 50%;
+    margin-left: -360px;
+    position: absolute;
+}
+.address .add_address_box{
+    width: 236px;
+    height: 40px;
+    border-radius: 20px;
+    background-color: #ff8400;
+    font-size: 24px;
+    color: #fff;
+    text-align: center;
+    line-height: 40px;
+    margin-left: -118px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+.address{}

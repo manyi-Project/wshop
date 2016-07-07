@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>购物车</title>
+	<link rel="stylesheet" type="text/css" href="../css/main.min.css" />
+	<script type="text/javascript" src="../js/jquery-1.11.3.min.js"></script>
+	<script type="text/javascript" src="../js/flexible.debug.js"></script>
+</head>
+<body>
+	<div class="comment_title">
+		<a href="javascript:;" class="comment_return">返回</a>
+		购物车
+	</div>
+	<div class="my_main s_main">
+		<div class="s_notice">
+			翰林商城自营点，任何产品买一送三，让你手抢到发麻！
+		</div>
+		<div class="s_container">
+			<div class="s_commodity">
+				<div class="s_commodityTop">
+					<div class="s_han">
+						翰
+					</div>
+					<div class="s_shopTitle">
+						翰林自营商品
+					</div>
+					<div id="s_edit" class="s_edit">
+						编辑
+					</div>
+					<div id="complete" style="display:none;" class="s_edit">
+						完成
+					</div>
+				</div>
+				<div class="s_shopping">
+					<div class="s_subshopping clearfix">
+						<div class="s_right">
+							<div class="s_subright">
+								<div class="s_pic">
+								</div>
+								<div class="s_picContent">
+									<p class="s_goodsTitle">趣平方包年视频</p>
+									<p class="s_goodsIntro">趣平方包括所有的小学语文视频，特别的有意思，欢迎使用。</p>
+									<p class="s_goodsPrice">￥300</p>
+									<div class="s_num">
+										<span>-</span>
+										<span class="s_active">1</span>
+										<span>+</span>
+									</div>
+									<div style="display: none" class="s_delet">
+										删除
+									</div>
+								</div>
+							</div>
+							<div class="s_calc">
+								<span>小计:</span>
+								<span>￥300.00</span>
+								<span class="s_clacMargin">+0积分</span>
+								<span>节省:</span>
+								<span>￥0</span>
+								<span class="span"><input type="hidden" value="737"><a class="s_delets" href="#" style="color:red;padding: 2px 5px;">删除</a></span>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="s_shopping">
+					<div class="s_subshopping clearfix">
+						<div class="s_right">
+							<div class="s_subright">
+								<div class="s_pic">
+								</div>
+								<div class="s_picContent">
+									<p class="s_goodsTitle">趣平方包年视频</p>
+									<p class="s_goodsIntro">趣平方包括所有的小学语文视频，特别的有意思，欢迎使用。</p>
+									<p class="s_goodsPrice">￥300</p>
+									<div class="s_num">
+										<span>-</span>
+										<span class="s_active">1</span>
+										<span>+</span>
+									</div>
+									<div style="display: none" class="s_delet">
+										删除
+									</div>
+								</div>
+							</div>
+							<div class="s_calc">
+								<span>小计:</span>
+								<span>￥300</span>
+								<span class="s_clacMargin">+0积分</span>
+								<span>节省:</span>
+								<span>￥0</span>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="s_shopping">
+					<div class="s_subshopping clearfix">
+						<div class="s_right">
+							<div class="s_subright">
+								<div class="s_pic">
+								</div>
+								<div class="s_picContent">
+									<p class="s_goodsTitle">趣平方包年视频</p>
+									<p class="s_goodsIntro">趣平方包括所有的小学语文视频，特别的有意思，欢迎使用。</p>
+									<p class="s_goodsPrice">￥300</p>
+									<div class="s_num">
+										<span>-</span>
+										<span class="s_active">1</span>
+										<span>+</span>
+									</div>
+									<div style="display: none" class="s_delet">
+										删除
+									</div>
+								</div>
+							</div>
+							<div class="s_calc">
+								<span>小计:</span>
+								<span>￥300</span>
+								<span class="s_clacMargin">+0积分</span>
+								<span>节省:</span>
+								<span>￥0</span>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div id="s_delet_footer1" class="my_footer s_footer">
+		<span class="s_all">
+			<input type="checkbox" class="ipt-hide">
+		</span>
+		<span class="s_quan">全选</span>
+		<span class="s_total">合计:</span>
+		<span class="s_money">300.00</span>
+		<a href="htps://www.baidu.com" class="s_accounts">
+			去结算(1)
+		</a>
+	</div>
+	<footer id="s_delet_footer" style="display: none" class="s_delet_footer my_footer s_footer">
+		<span class="s_all">
+			<input type="checkbox" class="ipt-hide">
+		</span>
+		<span class="s_quan">全选</span>
+		<span class="s_accounts s_total s_guanzhu">移入关注</span>
+		<a href="###" id="s_accounts" class="s_accounts">
+			删除
+		</a>
+	</footer>
+	<div class="alert_show marginAuto">
+		<div class="alert_inner marginAuto">
+			<p class="alert_font">商品已加入购物车</p>
+			<div class="s_del s_buttons fl">删除</div>
+			<div class="s_canl s_buttons fr">取消</div>
+		</div>
+	</div>
+
+	<div class="common_noOrder" style="display:none;">
+		<p class="bigfont">购物车空空如也</p>
+		<p class="smallfont">去逛逛吧</p>
+	</div>
+</body>
+<script type="text/javascript" src="../js/shoppingCart.js"></script>
+</html>
